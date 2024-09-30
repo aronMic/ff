@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter price: ");
+        double price= input.nextDouble;
+        double shipcost;
+        if(price > 100){
+            shipcost=0;
+        }else{
+            shipcost=price*0.02;
+        }
+        System.out.println("Shipping price is: "+shipcost)
+        }
+    }
+}
